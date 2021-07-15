@@ -8,13 +8,14 @@
   }
   a:hover {
     color: #2ff1f7;
-    background-color: #FFFFFF;
+    background-color: #2ff1f7;
   }
   body {
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     vertical-align: bottom;
     color: #FFFFFF;
+    background-color: #33475b;
   }
   hr{
     padding: 0px;
