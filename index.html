@@ -13,6 +13,15 @@
 <body>
   <!-- The <h1> tag will make the text larger on the screen -->
   <h1>Hello World!</h1>
+  
+  <form action="/external/" method="post">
+    (% csrf_token2)
+    Text:
+    <input type="text" name="userText" required><br><br>
+    ((data_external))<br><br>
+    <input type="submit" value="Execute External Python Script">
+  </form>
+    
   <a href="Fun.html">
     <button align="center" width="500px" height="50px" type="button">Next Page</button>
   </a>
